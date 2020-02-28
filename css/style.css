@@ -1294,3 +1294,7 @@ figure {
 .no-js #loader {
   display: none;
 }
+
+.form-control {
+    margin-bottom: 10px;
+}

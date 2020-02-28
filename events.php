@@ -33,12 +33,12 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-main-nav-toggle main-nav-toggle dark"><i></i></a>
-					<h1 id="main-logo"><a href="index.html">Upcoming Events! - Februrary</a></h1>
+					<h1 id="main-logo"><a href="index.php">Upcoming Events! - Februrary</a></h1>
 					
 					<nav id="main-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="main-primary-menu">
 							<li >
-								<a href="index.html">Home</a>
+								<a href="index.php">Home</a>
 							</li>
 							<li>
 								<a href="#" class="active">Events</a>
@@ -46,9 +46,9 @@
 							<li>
 								<a href="#" class="main-sub-ddown">Volunteers</a>
 							</li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="blog.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="about.php">About</a></li>
+							<li><a href="blog.php">News</a></li>
+							<li><a href="contact.php">Contact</a></li>
 							<li><a href="">Login</a></li>
 						</ul>
 					</nav>

@@ -36,9 +36,9 @@
         <script src="js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
-	<div id="wmt-wrapper">
-        <div id="wmt-page">
-            <div id="wmt-blog-section" class="wmt-section-gray">
+	<div id="main-wrapper">
+        <div id="main-page">
+            <div id="main-blog-section" class="main-section-gray">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">

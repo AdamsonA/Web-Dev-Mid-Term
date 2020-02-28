@@ -45,18 +45,18 @@
         <script src="js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
-    <div id="wmt-wrapper">
-        <div id="wmt-page">
+    <div id="main-wrapper">
+        <div id="main-page">
             <?php
                 require_once('./header.php');
             ?>
 
-            <div class="wmt-hero">
-                <div class="wmt-overlay"></div>
-                <div class="wmt-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+            <div class="main-hero">
+                <div class="main-overlay"></div>
+                <div class="main-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
                     <div class="desc animate-box">
                         <h2>Our <strong>Blog &amp; News</strong></h2>
-                        <span>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="wmt-site-name">FreeHTML5.co</a></span>
+                        <span>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="main-site-name">FreeHTML5.co</a></span>
                         <span><a class="btn btn-primary btn-lg" href="#">Donate Now</a></span>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                 </div>
             <?php endif; ?>
 
-            <div id="wmt-blog-section" class="wmt-section-gray">
+            <div id="main-blog-section" class="main-section-gray">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -91,7 +91,7 @@
                     <div class="row row-bottom-padded-md">
                         <?php foreach ($newsItems as $key): ?>
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="wmt-blog animate-box">
+                                <div class="main-blog animate-box">
                                     <a href="#"><img class="img-responsive" src="<?php echo $key["image_url"]; ?>" alt=""></a>
                                     <div class="blog-text">
                                         <div class="prod-title">
