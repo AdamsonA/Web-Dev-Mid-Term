@@ -30,7 +30,7 @@
                         <div class="desc animate-box">
                             <h2><strong>Donate</strong> for the <strong>Animals in Australia</strong></h2>
                             <span> Help us save wildlife, and now the fires have cleared, restore our lost forests.</span>
-                            <span><a class="btn btn-primary btn-lg" href="#">Donate Now</a></span>
+                            <span><a class="btn btn-primary btn-lg" href="donate.php">Donate Now</a></span>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
         </div>
 
         <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.easing.1.3.js"></script>
+       
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/sticky.js"></script>
