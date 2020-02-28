@@ -41,7 +41,7 @@
 								<a href="index.php">Home</a>
 							</li>
 							<li>
-								<a href="#" class="active">Events</a>
+								<a href="events.php" class="active">Events</a>
 							</li>
 							<li>
 								<a href="#" class="main-sub-ddown">Volunteers</a>
