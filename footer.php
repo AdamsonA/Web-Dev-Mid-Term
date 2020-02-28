@@ -7,7 +7,6 @@
                         <a href="#"><i class="icon-twitter2"></i></a>
                         <a href="#"><i class="icon-facebook2"></i></a>
                         <a href="#"><i class="icon-instagram"></i></a>
-                        <a href="#"><i class="icon-dribbble2"></i></a>
                         <a href="#"><i class="icon-youtube"></i></a>
                     </p>
                 </div>

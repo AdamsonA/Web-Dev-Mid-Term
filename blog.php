@@ -31,7 +31,7 @@
 	<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Charity</title>
+        <title>Animals Australia</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" href="favicon.ico">
@@ -56,8 +56,7 @@
                 <div class="main-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
                     <div class="desc animate-box">
                         <h2>Our <strong>Blog &amp; News</strong></h2>
-                        <span>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="main-site-name">FreeHTML5.co</a></span>
-                        <span><a class="btn btn-primary btn-lg" href="#">Donate Now</a></span>
+                       
                     </div>
                 </div>
             </div>
@@ -115,7 +114,6 @@
     </div>
 
 	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/sticky.js"></script>
