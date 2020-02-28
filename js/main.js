@@ -1,17 +1,16 @@
 ;(function () {
-	
 	'use strict';
 
 
 
-	// iPad and iPod detection	
+	// iPad and iPod detection
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
 	};
 
 	var isiPhone = function(){
 	    return (
-			(navigator.platform.indexOf("iPhone") != -1) || 
+			(navigator.platform.indexOf("iPhone") != -1) ||
 			(navigator.platform.indexOf("iPod") != -1)
 	    );
 	};
@@ -19,7 +18,7 @@
 	// Main Menu Superfish
 	var mainMenu = function() {
 
-		$('#wmt-primary-menu').superfish({
+		$('#main-primary-menu').superfish({
 			delay: 0,
 			animation: {
 				opacity: 'show'
@@ -40,7 +39,7 @@
 	// Offcanvas and cloning of the main menu
 	var offcanvas = function() {
 
-		var $clone = $('#wmt-menu-wrap').clone();
+		var $clone = $('#main-menu-wrap').clone();
 		$clone.attr({
 			'id' : 'offcanvas-menu'
 		});
@@ -49,17 +48,17 @@
 			'id' : ''
 		});
 
-		$('#wmt-page').prepend($clone);
+		$('#main-page').prepend($clone);
 
 		// click the burger
-		$('.js-wmt-nav-toggle').on('click', function(){
+		$('.js-main-nav-toggle').on('click', function(){
 
-			if ( $('body').hasClass('wmt-offcanvas') ) {
-				$('body').removeClass('wmt-offcanvas');
+			if ( $('body').hasClass('main-offcanvas') ) {
+				$('body').removeClass('main-offcanvas');
 			} else {
-				$('body').addClass('wmt-offcanvas');
+				$('body').addClass('main-offcanvas');
 			}
-			
+
 
 		});
 
@@ -72,24 +71,24 @@
 			$('#offcanvas-menu').css('height', w.height());
 
 			if ( w.width() > 769 ) {
-				if ( $('body').hasClass('wmt-offcanvas') ) {
-					$('body').removeClass('wmt-offcanvas');
+				if ( $('body').hasClass('main-offcanvas') ) {
+					$('body').removeClass('main-offcanvas');
 				}
 			}
 
-		});	
+		});
 
 	}
 
-	
+
 
 	// Click outside of the Mobile Menu
 	var mobileMenuOutsideClick = function() {
 		$(document).click(function (e) {
-	    var container = $("#offcanvas-menu, .js-wmt-nav-toggle");
+	    var container = $("#offcanvas-menu, .js-main-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-	      if ( $('body').hasClass('wmt-offcanvas') ) {
-				$('body').removeClass('wmt-offcanvas');
+	      if ( $('body').hasClass('main-offcanvas') ) {
+				$('body').removeClass('main-offcanvas');
 			}
 	    }
 		});
@@ -103,7 +102,6 @@
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-				
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -116,14 +114,13 @@
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
 	};
-	
 	var stickyBanner = function() {
 		var $stickyElement = $('.sticky-banner');
 		var sticky;
@@ -133,7 +130,7 @@
 		      offset: 0
 		  })
 		}
-	}; 
+	};
 
 	// Document on load.
 	$(function(){
