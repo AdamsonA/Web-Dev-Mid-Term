@@ -24,7 +24,7 @@
 	<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Charity</title>
+        <title>Animals Australia</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/animate.css">
@@ -60,7 +60,6 @@
 	</div>
 
 	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/sticky.js"></script>
