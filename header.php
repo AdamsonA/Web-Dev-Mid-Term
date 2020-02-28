@@ -22,7 +22,7 @@
                         <a href="volunteers.php" class="main-sub-ddown">Volunteers</a>
                     </li>
                     <li><a href="about.php">About</a></li>
-                    <li class="active"><a href="blog.php">News</a></li>
+                    <li class="active"><a href="blog.php">Blog</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <?php if ($isLoggedin): ?>
                         <li><a href="logout.php">SignOut</a></li>
