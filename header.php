@@ -2,11 +2,12 @@
     <div class="container">
         <div class="nav-header">
             <a href="#" class="js-main-nav-toggle main-nav-toggle dark"><i></i></a>
-            <h1 id="main-logo"><a href="index.php">Charity</a></h1>
+            <h1 id="main-logo"><a href="index.php">Animals Australia</a></h1>
             <nav id="main-menu-wrap" role="navigation">
                 <ul class="sf-menu" id="main-primary-menu">
                     <li ><a href="index.php">Home</a></li>
                     <li><a href="events.php">Events</a></li>
+                    <li><a href="volunteers.php">Volunteers</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="contact.php">Contact</a></li>

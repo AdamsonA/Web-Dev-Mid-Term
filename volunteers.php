@@ -33,6 +33,7 @@
    <body>
        <div id="fh5co-wrapper">
        <div id="fh5co-page">
+       
        <div class="header-top">
            <div class="container">
                <div class="row">
@@ -44,22 +45,22 @@
            <div class="container">
                <div class="nav-header">
                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-                   <h1 id="fh5co-logo"><a href="index.html">Volunteers</a></h1>
+                   <h1 id="fh5co-logo"><a href="index.php">Volunteers</a></h1>
                    <!-- START #fh5co-menu-wrap -->
                    <nav id="fh5co-menu-wrap" role="navigation">
                        <ul class="sf-menu" id="fh5co-primary-menu">
                            <li class="active">
-                               <a href="index.html">Home</a>
+                               <a href="index.php">Home</a>
                            </li>
                            <li>
-                               <a href="#" class="fh5co-sub-ddown">Events</a>
+                               <a href="events.php" class="fh5co-sub-ddown">Events</a>
                            </li>
                            <li>
-                               <a href="#" class="fh5co-sub-ddown">Volunteers</a>
+                               <a href="volunteers.php" class="fh5co-sub-ddown">Volunteers</a>
                            </li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="blog.html">News</a></li>
-                           <li><a href="contact.html">Contact</a></li>
+                           <li><a href="about.php">About</a></li>
+                           <li><a href="blog.php">News</a></li>
+                           <li><a href="contact.php">Contact</a></li>
                            <li><a href="">Login</a></li>
                        </ul>
                    </nav>
@@ -69,14 +70,7 @@
 
 
 
-       <div class="fh5co-hero">
-           <div class="fh5co-overlay"></div>
-           <div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/main.jpg);">
-               <div class="desc animate-box">
-                   <h2> <strong>Volunteer Now!</strong></h2>
-                   <span> Register here &  make a difference</span>
-               </div>
-           </div>
+      
 
        </div>
        <!-- end:header-top -->
