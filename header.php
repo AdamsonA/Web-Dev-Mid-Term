@@ -1,3 +1,10 @@
+<div class="header-top">
+    <div class="container">
+        <div class="row">
+            </div>
+			</div>
+		</div>
+
 <header id="main-header-section" class="sticky-banner">
     <div class="container">
         <div class="nav-header">
@@ -9,7 +16,7 @@
                     <li><a href="events.php">Events</a></li>
                     <li><a href="volunteers.php">Volunteers</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="blog.php">Blog</a></li>
+                    <li class="active"><a href="blog.php">Blog</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <?php if ($isLoggedin): ?>
                         <li><a href="logout.php">SignOut</a></li>
